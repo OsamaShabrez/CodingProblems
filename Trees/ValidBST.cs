@@ -16,6 +16,8 @@ public class ValidBst
         }
     }
 
+    #region LeetCode-https: //leetcode.com/problems/validate-binary-search-tree/submissions/837929893/
+
     public static bool IsValidBst(TreeNode? root)
     {
         if (root == null)
@@ -53,4 +55,6 @@ public class ValidBst
         var result = minLeft < minRight ? minLeft : minRight;
         return result > node.Val ? node.Val : result;
     }
+
+    #endregion
 }

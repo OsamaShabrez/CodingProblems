@@ -2,6 +2,9 @@
 
 public static class ArrayFindDuplicate
 {
+    # region LeetCode-https: //leetcode.com/problems/contains-duplicate-ii/
+
+    // Runtime 1584 ms Beats 10.99% Memory 58.1 MB Beats 20.97%
     public static bool ContainsNearbyDuplicate(int[] nums, int k)
     {
         for (var i = 0; i < nums.Length - 1; i++)
@@ -12,6 +15,7 @@ public static class ArrayFindDuplicate
         return false;
     }
 
+    // Runtime 453 ms Beats 45.1% Memory 55.1 MB Beats 27.28%
     public static bool ContainsNearbyDuplicateDictionary(int[] nums, int k)
     {
         var map = new Dictionary<int, int>();
@@ -24,4 +28,6 @@ public static class ArrayFindDuplicate
 
         return false;
     }
+
+    #endregion
 }

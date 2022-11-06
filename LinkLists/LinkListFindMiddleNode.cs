@@ -15,6 +15,7 @@ public static class LinkListFindMiddleNode
     }
 
     #region LeetCode-https://leetcode.com/problems/middle-of-the-linked-list/
+
     // Runtime 89 ms Beats 89.99% Memory 38.2 MB Beats 6.77%
     public static ListNode? MiddleNode(ListNode? head)
     {
@@ -25,5 +26,6 @@ public static class LinkListFindMiddleNode
     {
         return dIdx?.Next == null ? idx : FindMiddleNode(idx!.Next, dIdx.Next.Next);
     }
+
     #endregion
 }
