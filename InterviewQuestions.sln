@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trees", "Trees\Trees.csproj", "{BF1FBE94-7675-4AD1-BDD4-9E6C443F1E5D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "Array\Array.csproj", "{80F1984A-BD22-40B0-A841-45E1005D42A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{BB25E3A8-0ACE-462F-9832-DDB98A3A3452}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{BF1FBE94-7675-4AD1-BDD4-9E6C443F1E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF1FBE94-7675-4AD1-BDD4-9E6C443F1E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF1FBE94-7675-4AD1-BDD4-9E6C443F1E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F1984A-BD22-40B0-A841-45E1005D42A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F1984A-BD22-40B0-A841-45E1005D42A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F1984A-BD22-40B0-A841-45E1005D42A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F1984A-BD22-40B0-A841-45E1005D42A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB25E3A8-0ACE-462F-9832-DDB98A3A3452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB25E3A8-0ACE-462F-9832-DDB98A3A3452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB25E3A8-0ACE-462F-9832-DDB98A3A3452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB25E3A8-0ACE-462F-9832-DDB98A3A3452}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
