@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{BB25E3A8-0ACE-462F-9832-DDB98A3A3452}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkLists", "LinkLists\LinkLists.csproj", "{D17D7BE4-8F51-4903-ACBB-3F8D27D59485}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{BB25E3A8-0ACE-462F-9832-DDB98A3A3452}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB25E3A8-0ACE-462F-9832-DDB98A3A3452}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB25E3A8-0ACE-462F-9832-DDB98A3A3452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D17D7BE4-8F51-4903-ACBB-3F8D27D59485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D17D7BE4-8F51-4903-ACBB-3F8D27D59485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D17D7BE4-8F51-4903-ACBB-3F8D27D59485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D17D7BE4-8F51-4903-ACBB-3F8D27D59485}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
