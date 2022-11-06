@@ -3,7 +3,7 @@ using Xunit;
 
 namespace UnitTests;
 
-public class ArrayFindTests
+public class ArrayFindDuplicateTests
 {
     [Theory]
     [InlineData(new[] { 1, 2, 3, 1 }, 3, true)]
@@ -11,7 +11,7 @@ public class ArrayFindTests
     [InlineData(new[] { 1, 2, 3, 1, 2, 3 }, 2, false)]
     public void ContainsNearbyDuplicateTests(int[] array, int k, bool output)
     {
-        var result = ArrayFind.ContainsNearbyDuplicate(array, k);
+        var result = ArrayFindDuplicate.ContainsNearbyDuplicate(array, k);
         Assert.Equal(result, output);
     }
     
@@ -21,7 +21,7 @@ public class ArrayFindTests
     [InlineData(new[] { 1, 2, 3, 1, 2, 3 }, 2, false)]
     public void ContainsNearbyDuplicateDictionaryTests(int[] array, int k, bool output)
     {
-        var result = ArrayFind.ContainsNearbyDuplicateDictionary(array, k);
+        var result = ArrayFindDuplicate.ContainsNearbyDuplicateDictionary(array, k);
         Assert.Equal(result, output);
     }
 

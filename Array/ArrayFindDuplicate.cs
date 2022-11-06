@@ -1,6 +1,6 @@
 ﻿namespace Array;
 
-public static class ArrayFind
+public static class ArrayFindDuplicate
 {
     public static bool ContainsNearbyDuplicate(int[] nums, int k)
     {
