@@ -23,6 +23,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Arrays\Arrays.csproj" />
+      <ProjectReference Include="..\Integers\Integers.csproj" />
     </ItemGroup>
 
 </Project>
