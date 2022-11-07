@@ -3,7 +3,7 @@ using Xunit;
 
 namespace UnitTests;
 
-public class ArrayFindDuplicateTests
+public class ArraysTests
 {
     [Theory]
     [InlineData(new[] { 1, 2, 3, 1 }, 3, true)]
