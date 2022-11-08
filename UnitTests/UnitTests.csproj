@@ -24,6 +24,7 @@
     <ItemGroup>
       <ProjectReference Include="..\Arrays\Arrays.csproj" />
       <ProjectReference Include="..\Integers\Integers.csproj" />
+      <ProjectReference Include="..\Strings\Strings.csproj" />
     </ItemGroup>
 
 </Project>
