@@ -3,7 +3,7 @@ using Xunit;
 
 namespace UnitTests;
 
-public class StringsTest
+public class StringsTests
 {
     [Theory]
     [InlineData("leEeetcode", "leetcode")]

@@ -3,7 +3,7 @@ using Xunit;
 
 namespace UnitTests;
 
-public class IntegersTest
+public class IntegersTests
 {
     [Theory]
     [InlineData(9669, 9969)]
