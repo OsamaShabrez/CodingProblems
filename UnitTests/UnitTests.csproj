@@ -23,6 +23,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Arrays\Arrays.csproj" />
+      <ProjectReference Include="..\DataStructures\DataStructures.csproj" />
       <ProjectReference Include="..\Integers\Integers.csproj" />
       <ProjectReference Include="..\LinkLists\LinkLists.csproj" />
       <ProjectReference Include="..\Strings\Strings.csproj" />

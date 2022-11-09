@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integers", "Integers\Intege
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{04544740-8DAC-4705-BA40-FD320BA3903B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{1CB3C68D-42B7-4513-99D6-A8FEA0AAAB7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{04544740-8DAC-4705-BA40-FD320BA3903B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04544740-8DAC-4705-BA40-FD320BA3903B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04544740-8DAC-4705-BA40-FD320BA3903B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CB3C68D-42B7-4513-99D6-A8FEA0AAAB7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB3C68D-42B7-4513-99D6-A8FEA0AAAB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB3C68D-42B7-4513-99D6-A8FEA0AAAB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB3C68D-42B7-4513-99D6-A8FEA0AAAB7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
