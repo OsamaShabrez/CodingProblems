@@ -2,7 +2,7 @@ namespace Integers;
 
 public static class Duplicates
 {
-    #region LeetCode-https: //leetcode.com/problems/remove-duplicates-from-sorted-array
+    #region LeetCode-https://leetcode.com/problems/remove-duplicates-from-sorted-array
 
     public static int RemoveDuplicates(int[] nums)
     {
