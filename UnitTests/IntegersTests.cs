@@ -20,4 +20,30 @@ public class IntegersTests
         result = LargestNumber.MaximumNumberFrom69(num);
         Assert.Equal(result, output);
     }
+
+    [Theory]
+    [InlineData(new[] {1, 2}, 1.5)]
+    [InlineData(new[] {1, 2, 3}, 2)]
+    [InlineData(new[] {6}, 6)]
+    [InlineData(new[] {6, 10}, 8.0)]
+    [InlineData(new[] {6, 10, 2}, 6.0)]
+    [InlineData(new[] {6, 10, 2, 6}, 6.0)]
+    [InlineData(new[] {6, 10, 2, 6, 5}, 6.0)]
+    [InlineData(new[] {6, 10, 2, 6, 5, 0}, 5.5)]
+    [InlineData(new[] {6, 10, 2, 6, 5, 0, 6}, 6.0)]
+    [InlineData(new[] {6, 10, 2, 6, 5, 0, 6, 3}, 5.5)]
+    [InlineData(new[] {6, 10, 2, 6, 5, 0, 6, 3, 1}, 5.0)]
+    [InlineData(new[] {6, 10, 2, 6, 5, 0, 6, 3, 1, 0}, 4.0)]
+    [InlineData(new[] {6, 10, 2, 6, 5, 0, 6, 3, 1, 0, 0}, 3.0)]
+    public void MedianFinderTest(int[] input, double output)
+    {
+        var medianFinder = new MedianFinder();
+        foreach (var num in input)
+        {
+            medianFinder.AddNum(num);
+        }
+
+        var result = medianFinder.FindMedian();
+        Assert.Equal(result, output);
+    }
 }
