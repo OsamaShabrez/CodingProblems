@@ -2,21 +2,7 @@
 
 public class ValidBst
 {
-    public class TreeNode
-    {
-        public readonly int Val;
-        public readonly TreeNode? Left;
-        public readonly TreeNode? Right;
-
-        public TreeNode(int val = 0, TreeNode? left = null, TreeNode? right = null)
-        {
-            Val = val;
-            Left = left;
-            Right = right;
-        }
-    }
-
-    #region LeetCode-https: //leetcode.com/problems/validate-binary-search-tree/submissions/837929893/
+    #region LeetCode-https://leetcode.com/problems/validate-binary-search-tree/submissions/837929893/
 
     public static bool IsValidBst(TreeNode? root)
     {
