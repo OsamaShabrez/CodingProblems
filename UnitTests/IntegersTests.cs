@@ -46,4 +46,13 @@ public class IntegersTests
         var result = medianFinder.FindMedian();
         Assert.Equal(result, output);
     }
+
+    [Theory]
+    [InlineData(10)]
+    public void GuessTheNumberTest(int limit)
+    {
+        GuessTheNumber.HiddenNumber = new Random().Next(0, limit);
+        var result = GuessTheNumber.GuessNumber(limit);
+        Assert.Equal(result, GuessTheNumber.HiddenNumber);
+    }
 }
