@@ -27,4 +27,14 @@ public class StringsTests
         var result = StringManipulation.MakeTheStringGreat(str);
         Assert.Equal(result, output);
     }
+
+    [Theory]
+    [InlineData("(1+(4+5 +2)-3)+(6+8)", 23)]
+    [InlineData("2-1 + 2 ", 3)]
+    [InlineData("1 + 1", 2)]
+    public void BasicCalculatorTest(string input, int output)
+    {
+        var result = BasicCalculator.Calculate(input);
+        Assert.Equal(result, output);
+    }
 }
