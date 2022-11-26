@@ -64,4 +64,38 @@ public static class StringManipulation
     }
 
     #endregion
+
+    #region LeetCode-https://leetcode.com/problems/longest-substring-without-repeating-characters/
+    // Runtime 122 ms Beats 60.17% Memory 36.8 MB Beats 82.57%
+    public static int LengthOfLongestSubstring(string s)
+    {
+        var asci = new int[128];
+
+        var length = 0;
+        var prev = 0;
+        for (var i = 0; i < s.Length; i++)
+            if (asci[s[i]] == 0)
+            {
+                asci[s[i]] = 1;
+                length++;
+            }
+            else
+            {
+                if (prev < length) prev = length;
+
+                asci = new int[128];
+                asci[s[i]] = 1;
+                length = 1;
+                var y = i - 1;
+                while (y > 0 && s[y] != s[i])
+                {
+                    asci[s[y--]] = 1;
+                    length++;
+                }
+            }
+
+        return prev > length ? prev : length;
+    }
+
+    #endregion
 }
