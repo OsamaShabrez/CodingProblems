@@ -59,7 +59,7 @@ public class LinkListsTests
 
         while (l3 != null || result != null)
         {
-            Assert.Equal(result?.val, l3?.val);
+            Assert.Equal(l3?.val, result?.val);
             l3 = l3?.Next;
             result = result?.Next;
         }

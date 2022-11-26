@@ -12,7 +12,7 @@ public class ArraysTests
     public void ContainsNearbyDuplicateTests(int[] array, int k, bool output)
     {
         var result = ArrayFindDuplicate.ContainsNearbyDuplicate(array, k);
-        Assert.Equal(result, output);
+        Assert.Equal(output, result);
     }
     
     [Theory]
@@ -22,7 +22,7 @@ public class ArraysTests
     public void ContainsNearbyDuplicateDictionaryTests(int[] array, int k, bool output)
     {
         var result = ArrayFindDuplicate.ContainsNearbyDuplicateDictionary(array, k);
-        Assert.Equal(result, output);
+        Assert.Equal(output, result);
     }
 
 }

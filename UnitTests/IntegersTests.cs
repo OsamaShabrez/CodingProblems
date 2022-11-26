@@ -12,13 +12,13 @@ public class IntegersTests
     public void Maximum69NumberTests(int num, int output)
     {
         var result = LargestNumber.MaximumNumberFrom69Cpu(num);
-        Assert.Equal(result, output);
+        Assert.Equal(output, result);
 
         result = LargestNumber.MaximumNumberFrom69Memory(num);
-        Assert.Equal(result, output);
+        Assert.Equal(output, result);
 
         result = LargestNumber.MaximumNumberFrom69(num);
-        Assert.Equal(result, output);
+        Assert.Equal(output, result);
     }
 
     [Theory]
@@ -44,7 +44,7 @@ public class IntegersTests
         }
 
         var result = medianFinder.FindMedian();
-        Assert.Equal(result, output);
+        Assert.Equal(output, result);
     }
 
     [Theory]

@@ -12,10 +12,10 @@ public class StringsTests
     public void RemoveDuplicatesTest(string str, string output)
     {
         var result = StringManipulation.RemoveDuplicatesMemory(str);
-        Assert.Equal(result, output);
+        Assert.Equal(output, result);
 
         result = StringManipulation.RemoveDuplicates(str);
-        Assert.Equal(result, output);
+        Assert.Equal(output, result);
     }
 
     [Theory]
@@ -25,7 +25,7 @@ public class StringsTests
     public void MakeTheStringGreatTest(string str, string output)
     {
         var result = StringManipulation.MakeTheStringGreat(str);
-        Assert.Equal(result, output);
+        Assert.Equal(output, result);
     }
 
     [Theory]
@@ -35,6 +35,18 @@ public class StringsTests
     public void BasicCalculatorTest(string input, int output)
     {
         var result = BasicCalculator.Calculate(input);
-        Assert.Equal(result, output);
+        Assert.Equal(output, result);
     }
-}
+    
+    [Theory]
+    [InlineData("pwwkew", 3)]
+    [InlineData("abcabcbb", 3)]
+    [InlineData("bbbbb", 1)]
+    [InlineData("aab", 2)]
+    [InlineData("dvdf", 3)]
+    [InlineData("abba", 2)]
+    public void LengthOfLongestSubstringTest(string input, int output)
+    {
+        var result = StringManipulation.LengthOfLongestSubstring(input);
+        Assert.Equal(output, result);
+    }}

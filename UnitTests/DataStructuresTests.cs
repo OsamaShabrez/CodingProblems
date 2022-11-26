@@ -13,7 +13,7 @@ public class DataStructuresTests
         for (var i = 0; i < prices.Length; i++)
         {
             var result = spanner.Next(prices[i]);
-            Assert.Equal(result, spans[i]);
+            Assert.Equal(spans[i], result);
         }
     }
 }
