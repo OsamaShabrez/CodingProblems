@@ -4,7 +4,7 @@ namespace Integers;
 
 public class LargestNumber
 {
-    #region LeetCode-https: //leetcode.com/problems/maximum-69-number/submissions/838995477/
+    #region LeetCode-https://leetcode.com/problems/maximum-69-number/submissions/838995477/
 
     // Runtime 21 ms Beats 95.24% Memory 26.6 MB Beats 13.69%
     public static int MaximumNumberFrom69Cpu(int num)

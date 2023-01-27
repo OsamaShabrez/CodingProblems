@@ -2,7 +2,7 @@ namespace LinkLists;
 
 public static class LinkListAddition
 {
-    #region LeetCode-https: //leetcode.com/problems/add-two-numbers/
+    #region LeetCode-https://leetcode.com/problems/add-two-numbers/
 
     // Runtime 162 ms Beats 58.61% Memory 39.2 MB Beats 78.39%
     public static ListNode AddTwoNumbers(ListNode? l1, ListNode? l2)

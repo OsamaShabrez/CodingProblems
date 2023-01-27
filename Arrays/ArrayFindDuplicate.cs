@@ -2,7 +2,7 @@
 
 public static class ArrayFindDuplicate
 {
-    # region LeetCode-https: //leetcode.com/problems/contains-duplicate-ii/
+    # region LeetCode-https://leetcode.com/problems/contains-duplicate-ii/
 
     // Runtime 1584 ms Beats 10.99% Memory 58.1 MB Beats 20.97%
     public static bool ContainsNearbyDuplicate(int[] nums, int k)

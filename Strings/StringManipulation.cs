@@ -4,7 +4,7 @@ namespace Strings;
 
 public static class StringManipulation
 {
-    #region LeetCode-https: //leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
+    #region LeetCode-https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
 
     // Runtime 83 ms Beats 99.4% Memory 46.1 MB Beats 16.75%
     public static string RemoveDuplicates(string s)
@@ -43,7 +43,7 @@ public static class StringManipulation
 
     #endregion
 
-    #region LeetCode-https: //leetcode.com/problems/make-the-string-great/
+    #region LeetCode-https://leetcode.com/problems/make-the-string-great/
 
     // Runtime 85 ms Beats 92.4% Memory 38 MB Beats 43.36%
     public static string MakeTheStringGreat(string s)
