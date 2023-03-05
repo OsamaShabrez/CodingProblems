@@ -49,4 +49,19 @@ public class StringsTests
     {
         var result = StringManipulation.LengthOfLongestSubstring(input);
         Assert.Equal(output, result);
-    }}
+    }
+
+    [Theory]
+    [InlineData("aa", "a", false)]
+    [InlineData("aa", "a*", true)]
+    [InlineData("aa", ".*", true)]
+    [InlineData("aab", "c*a*b*", true)]
+    [InlineData("aaa", "ab*ac*a", true)]
+    [InlineData("aaa", "a*a", true)]
+    [InlineData("aaaa", "a*aa", true)]
+    public void RegularExpressionMatchingTest(string input, string pattern, bool output)
+    {
+        var result = RegularExpressionMatching.IsPatternMatching(input, pattern);
+        Assert.Equal(output, result);
+    }
+}
