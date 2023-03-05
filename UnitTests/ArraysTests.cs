@@ -25,4 +25,12 @@ public class ArraysTests
         Assert.Equal(output, result);
     }
 
+    [Theory]
+    [InlineData(new[] { 1, 3, 5, 2, 7, 5 }, 1, 5, 2)]
+    [InlineData(new[] { 1, 1, 1, 1 }, 1, 1, 10)]
+    public void CountSubArraysATests(int[] nums, int min, int max, int output)
+    {
+        var result = SubArrays.CountSubArrays(nums, min, max);
+        Assert.Equal(output, result);
+    }
 }
