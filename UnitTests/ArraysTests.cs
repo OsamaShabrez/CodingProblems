@@ -33,4 +33,13 @@ public class ArraysTests
         var result = SubArrays.CountSubArrays(nums, min, max);
         Assert.Equal(output, result);
     }
+
+    [Theory]
+    [InlineData(new[] { 2, 3, 4, 7, 11 }, 5, 9)]
+    [InlineData(new[] { 1, 2, 3, 4 }, 2, 6)]
+    public void FindKthPositiveTests(int[] num, int k, int output)
+    {
+        var result = KthValues.FindKthPositive(num, k);
+        Assert.Equal(output, result);
+    }
 }
