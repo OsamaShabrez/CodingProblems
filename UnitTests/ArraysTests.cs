@@ -53,4 +53,13 @@ public class ArraysTests
         var result = KthValues.MinEatingSpeed(piles, h);
         Assert.Equal(output, result);
     }
+
+    [Theory]
+    [InlineData(new[] { 1, 3 }, new[] { 2 }, 2.0)]
+    [InlineData(new[] { 1, 2 }, new[] { 3, 4 }, 2.5)]
+    public void FindMedianSortedArraysTest(int[] nums1, int[] nums2, double output)
+    {
+        var result = Median.FindMedianSortedArrays(nums1, nums2);
+        Assert.Equal(output, result);
+    }
 }
