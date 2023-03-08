@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a5d6dacb-48ec-4e52-9ab4-284dce0156fa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.InterviewQuestions/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CodingProblems/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/KthValues.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/KthValues.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTests/ArraysTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnitTests/ArraysTests.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8517f607c12a4b508364c3f896f0fe6f11da8/50/a8a96f81/Assert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8517f607c12a4b508364c3f896f0fe6f11da8/94/cf3d35de/Assert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Arrays/ArrayFindDuplicate.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HAPF6G9TEV2RKG5hOZfKjYxj2l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/osamashabrez/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/osamashabrez/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
+      &quot;/Users/osamashabrez/.local/share/Symbols/src&quot;
+    ]
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5d6dacb-48ec-4e52-9ab4-284dce0156fa" name="Changes" comment="" />
+      <created>1667724809853</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667724809853</updated>
+      <workItem from="1667724812807" duration="1659000" />
+      <workItem from="1667729050551" duration="4680000" />
+      <workItem from="1667859573696" duration="25725000" />
+      <workItem from="1668492337832" duration="3905000" />
+      <workItem from="1668961822116" duration="12025000" />
+      <workItem from="1669841516518" duration="6522000" />
+      <workItem from="1671476198279" duration="4360000" />
+      <workItem from="1674861742877" duration="1741000" />
+      <workItem from="1677969227390" duration="265000" />
+      <workItem from="1677973414400" duration="2499000" />
+      <workItem from="1678127830455" duration="12000" />
+      <workItem from="1678128074310" duration="1449000" />
+      <workItem from="1678261588302" duration="3249000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="653e1abf-e368-4b49-8981-d327d59da6d8">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="7033d33d-56be-48cb-a07f-f794df83d087">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="653e1abf-e368-4b49-8981-d327d59da6d8" value="TOOL_WINDOW" />
+        <entry key="7033d33d-56be-48cb-a07f-f794df83d087" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/LinkLists/LinkListAddition.cs</url>
+          <line>12</line>
+          <properties documentPath="$PROJECT_DIR$/LinkLists/LinkListAddition.cs" initialLine="10" containingFunctionPresentation="method 'AddTwoNumbers'">
+            <startOffsets>
+              <option value="366" />
+            </startOffsets>
+            <endOffsets>
+              <option value="398" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="RiderUnitTests">
+        <watch expression="s[sIdx]" language="C#" />
+        <watch expression="p[pIdx]" language="C#" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
